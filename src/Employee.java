@@ -44,8 +44,7 @@ public abstract class Employee {
 
     //method to calculate Birth Year
     public int calcBirthYear() {
-        int birthYearCalculation = 2021 - age;
-        return birthYearCalculation;
+        return 2021 - age;
     }
 
     //a method to calculate the earnings of the employee
